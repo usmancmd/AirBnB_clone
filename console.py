@@ -7,7 +7,11 @@ class_dict = {"BaseModel": BaseModel}
 
 
 class HBNBCommand(cmd.Cmd):
-    """Defines HBNBCommand class"""
+    """
+    Defines HBNBCommand class
+    that implements the console
+    for the AirBnB clone web application
+    """
     prompt = '(hbnb) '
 
     def do_quit(self, line):
